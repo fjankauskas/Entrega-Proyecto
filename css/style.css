@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #3E6D9C;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navbar li{
+    list-style: none;
+    text-decoration: #ffffff;
+}
+
+.navbar li a{
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+    font-size: 10px;
+}
+
+.colornavbar{
+    background-color: #FD841F;
+}
+
+.iconos{
+    height: 16px;
+    width: 16px;
+    border-style: solid;
+}
+
+.trending1{ 
+    display: flex;
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
+}
+
+.container{
+    display: flexbox;
+    height: 200px;
+    width: 280px;
+    background-color: white;
+    border-style: solid;
+    border-top: 0px;
+    border-width: 1px;
+    border-color: gray;
+}
+
+.seccion{
+    padding: 25px;
+    margin: 10px;
+    width: 100px;
+}
+
+.boxs{   
+    display: flexbox;
+    width: 50px;
+    height: 50px;
+}
+
+.box{
+    height: 200px;
+    width: 200px;
+}
+
+.box1{
+    background-color: red;
+    border-radius: 100px;
+    width: 16px;
+    height: 16px;
+}
+
+.box2{
+    background-color: black;
+    border-radius: 100px;
+    width: 16px;
+    height: 16px;
+}
+
+.box3{
+    background-color: orangered;
+    border-radius: 100px;
+    width: 16px;
+    height: 16px;
+}
+
+.somos{
+    background-color: blue;
+    width: 200px;
+    height: 20px;
+}
+
+.somos p{
+    text-align: center;
+    text-decoration-color: white;
+}
