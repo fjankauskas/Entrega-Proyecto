@@ -128,9 +128,13 @@ nav{
 }
 
 .somos{
+    margin: 20px;
     background-color: blue;
     width: 200px;
     height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .somos p{
@@ -195,17 +199,6 @@ nav{
     flex-wrap: wrap;
     align-items: flex-start;
 }
-
-.ingresar{
-    padding: 10px 15px;
-    background-color: #00eeff;
-    color: white;
-    text-decoration: none;
-}
-
-.ingresar:hover {
-    background-color: #223094;
-  }
 
 
 @media(max-width:768px){
