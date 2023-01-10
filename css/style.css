@@ -196,6 +196,16 @@ nav{
     align-items: flex-start;
 }
 
+.ingresar{
+    padding: 10px 15px;
+    background-color: #00eeff;
+    color: white;
+    text-decoration: none;
+}
+
+.ingresar:hover {
+    background-color: #223094;
+  }
 
 
 @media(max-width:768px){
