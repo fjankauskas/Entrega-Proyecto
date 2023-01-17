@@ -5,15 +5,21 @@
 }
 
 body{
+    width: auto;
+    height: auto;
     background-color: #3E6D9C;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
+.color{
+    background: linear-gradient(#0F2027, #203A43, #2C5364);
+}
+
 
 header{
-    width: 90%;
+    width: 100%;
 }
 
 nav{
@@ -25,7 +31,7 @@ nav{
 
 
 .navbar{
-    width: 90%;
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -35,7 +41,7 @@ nav{
 .navbar a{
     display: flex;
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     
 }
 
@@ -45,8 +51,8 @@ nav{
 }
 
 .colornavbar{
-    width: 90%;
-    background-color: #FD841F;
+    width: 100%;
+    background-color: #000000;
 }
 
 .cuenta{
@@ -58,8 +64,6 @@ nav{
     padding-bottom: 0;
     height: 32px;
     width: 32px;
-    border-style: solid;
-    color: black;
 }
 
 .titulo{
@@ -93,6 +97,12 @@ nav{
     flex-direction: row;
     flex-wrap: wrap;
     gap: 10px;
+}
+
+
+.filtros{
+    width: 20px;
+    background-color: white;
 }
 
 .boxs{   
@@ -142,16 +152,72 @@ nav{
     text-decoration-color: white;
 }
 
+.card{
+    display: flexbox;
+    border-style: solid;
+    border-radius: ;
+}
+.sobreNosotros{
+    border-style: double;
+    display: flex;
+    text-align: center;
+    
+}
+
+.contenedor{
+    display: flex;
+    gap: 10px;
+}
+
+.contenedor p{
+    border-style: solid;
+}
+.card-img-top{
+    height: max-content;
+}
+
+.form{
+    background-color: #203A43;
+    width: 400px;
+    margin: auto;
+    background: rgba 0,0,0,0.4;
+    padding: 10px, 30px;
+    margin-top: 20px;
+    box-sizing: border-box;
+    border-radius: 7px;
+}
+
+.formulario input, textarea{
+    width: 95%;
+    margin-bottom: 20px;
+    padding: 5px;
+    box-sizing: border-box;
+} 
+
+.formulario{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formulario div{
+    padding: 0 0 0 3%;
+    margin-bottom: 3%;
+    width: 100%;
+}
+
 .footer{
-    width: 90%;
+    width: 100%;
     display: flex;
     justify-content: space-evenly;
-    background-color: #FD841F
+    background-color: #000000
 }
 
 .footer p{
     display: flex;
     align-items: center;
+    color: white;
 }
 
 
@@ -221,7 +287,7 @@ nav{
     
     
     .navbar {
-        width: 90%;
+        width: 100%;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
