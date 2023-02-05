@@ -1,8 +1,8 @@
-.footer{
+footer{
     width: 100%;
     display: flex;
     justify-content: space-evenly;
-    background-color: $bg-secundario;
+    background: $bg-secundario;
     p{
         display: flex;
         align-items: center;
@@ -18,22 +18,3 @@
     }
 }
 
-.footercolor{
-    background-color: black;
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-    p{
-        display: flex;
-        align-items: center;
-        color: white;
-    }
-    a{
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-        text-decoration: none;
-        color: rgb(0, 0, 0);
-        font-size: 10px;
-    }
-}
